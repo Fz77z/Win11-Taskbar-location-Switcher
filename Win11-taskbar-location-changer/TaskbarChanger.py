@@ -42,8 +42,6 @@ def is_bottom():
 
 
 if is_admin():
-
-    # Code of your program here
     
     title = 'Please choose a location for your windows 11 taskbar:  '
     options = ['Top', 'Bottom']
