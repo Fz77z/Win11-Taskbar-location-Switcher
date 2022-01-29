@@ -1,4 +1,4 @@
-!!!!!! twitter.com/fmentz !!!!!!
+
 
 
 > Navigate to the install location and double click on the TaskbarChanger.exe file.
