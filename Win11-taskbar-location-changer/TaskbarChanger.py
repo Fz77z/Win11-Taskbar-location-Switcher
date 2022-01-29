@@ -29,7 +29,6 @@ def restart_taskbar():
     subprocess.run([FILEBROWSER_PATH])
     
 
-
 def is_top():
         os.system("bkp_registro_win11-top.reg") # path to top-windows task bar reg file
         restart_taskbar()
@@ -57,8 +56,6 @@ if is_admin():
     else:
         print(is_admin()) 
 
-
-
 else:
     # Re-run the program with admin rights
     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
@@ -66,57 +63,6 @@ else:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- #def chooseLocation():
-  #  while True:
-  #      top = 1
-  #      bottom = 2
-  #      print("Please choose a location for your windows 11 taskbar: ")
-  #      print("[ 1.] Bottom ")
-  #      print("[ 2.] Top  ")
-  #      locationInput = (input(""))
-  #      try:
-  #          locationInput = float(locationInput)
-  #          if locationInput > 0 and locationInput <= 2 :
-  #              return(locationInput)
-  #          if locationInput < 0 or locationInput > 2 :
-  #              print("ERROR YOU NEED TO CHOOSE A LOCATION")
-  #              return(chooseLocation())
-  #          break;
-  #      except ValueError:
-  #            print("[ERROR]: Please enter a 1 or 2 without text/symbols.")
 
 
 
